@@ -1,0 +1,36 @@
+:root{
+  --primary:#039be5;
+  --primaryDark:#006db3;
+  --primaryLight:#63ccff;
+}
+.name{
+  background-color: var(--primary);
+  font-family: "arial black";
+}
+.navbar{
+  background-color: var(--primaryDark);
+  opacity: 0.9;
+  padding-left: 1em;
+}
+.subtitle{
+  font-family: "monotype corsiva";
+  text-align: center;
+}
+.introImage img{
+  width: 200px;
+  height: 200px;
+}
+.major, .department{
+  text-align: center;
+  display: block;
+}
+
+.footer{
+  background-color: var(--primaryDark);
+}
+
+.col-lg-3{
+}
+
+.social{
+}
